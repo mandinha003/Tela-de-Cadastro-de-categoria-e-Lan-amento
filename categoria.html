@@ -8,7 +8,7 @@
 
 
         </head>
-        <body id="CC">
+        <body>
 
             
             <div>
@@ -22,14 +22,19 @@
                     <label for="nome">Nome:</label><br>
                     <input type="text" id="nome" name="nome" maxlength="40" required><br><br>
          
-                    <label for="tipo" id="botão">Tipo:</label><br>
-                    <input type="radio" name="tipo" value="0" required> Tipo 1<br>
-                    <input type="radio" name="tipo" value="1" required> Tipo 2<br><br>
-         
+                    <label for="tipo">Tipo: </label><br>
+                    <select id="top" name="tipo" required>
+                     
+                        <option value="1">Tipo 1</option>
+                        <option value="2">Tipo 2</option>
+                    </select><br><br>
+
                     <label for="descricao">Descrição:</label><br>
                     <input type="text" id="descricao" name="descricao" maxlength="30"><br><br>
          
-                    <button type="submit" id="Cadas">Cadastrar Categoria</button>
+                    <button type="submit" id="Cadas"><a href="http://127.0.0.1:5500/lan%C3%A7amento.html">Cadastrar Categoria</a></button>
+
+                  
                 </form>
             </div>
         

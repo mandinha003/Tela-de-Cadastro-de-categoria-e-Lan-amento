@@ -20,21 +20,22 @@
               <label for="ds_lancamento">Descrição:</label><br>
               <input type="text" id="ds_lancamento" name="ds_lancamento" maxlength="40" required><br><br>
        
-              <label for="fk_usuario">Usuário:</label><br>
+              <label for="fk_usuario" id="usu">Usuário:</label><br>
               <select id="fk_usuario" name="fk_usuario" required>
                
                   <option value="1">Usuário 1</option>
                   <option value="2">Usuário 2</option>
               </select><br><br>
        
-              <label for="fk_categoria">Categoria:</label><br>
+              <label for="fk_categoria" id="cat">Categoria:</label><br>
               <select id="fk_categoria" name="fk_categoria" required>
                  
                   <option value="1">Categoria 1</option>
                   <option value="2">Categoria 2</option>
               </select><br><br>
        
-              <button type="submit">Cadastrar Lançamento</button>
+              <button type="submit" id="CL">Cadastrar Lançamento</button>
+              <button type="submit" id="V"><a href="http://127.0.0.1:5500/categoria.html">Voltar</a></button>
           </form>
       </div>
 
